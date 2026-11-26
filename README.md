@@ -2,6 +2,12 @@
 
 **You built it. Now brag.**
 
+## Using this copy with ChatGPT
+
+Ask for `/brag` and name the project or page to film. For example, “Use /brag to make a 20-second vertical video of the quote-request workflow.” Use `/brag-slim` for a directly composed video, or add `--voice` to the full workflow for narration.
+
+This repository includes the original project, its media and release history. Its [agent instructions](AGENTS.md) point to both workflows, the pinned Hyperframes tools, and a local MP4 encoder. Set up a fresh checkout with Node 22 or later and `npm ci`. Run `npm run check` to verify the bundled skills and example media.
+
 > **Want a video without running `/brag` yourself?** Paste your site's link at [letsbrag.app](https://letsbrag.app).
 
 [![the /brag launch site — you built it, now brag](docs/assets/hero.png)](https://latent-spaces.github.io/brag/)

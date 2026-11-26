@@ -11,6 +11,7 @@ __pycache__/
 .uv-cache/
 
 # Local tooling / machine config
+node_modules/
 .playwright-mcp/
 .agents/
 skills-lock.json
